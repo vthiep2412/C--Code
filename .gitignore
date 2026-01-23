@@ -5,3 +5,4 @@
 /.vscode
 tempCodeRunnerFile.cpp
 *.py
+.idx/dev.nix
