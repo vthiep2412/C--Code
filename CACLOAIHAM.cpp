@@ -124,9 +124,10 @@ long long countDivisors(long long n){
 }
 // Lấy chữ số đầu tiên của một số
 int getFirstDigit(int num) {
-    num = abs(num); // Xử lý số âm
-    int digits = log10(num); // Tìm số chữ số - 1
-    return num / pow(10, digits); // Chia cho 10^(số chữ số - 1)
+	if (num == 0) return 0;
+    num = abs(num);
+    int digits = log10(num);
+    return num / pow(10, digits);
 }
 // Kiểm tra xem một số có phải là lũy thừa của 2 không
 bool isPowerofTwo(int n) {
