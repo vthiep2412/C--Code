@@ -14,6 +14,25 @@ vector<bool> sieve(int n) {
     return is_prime;
 }
 
+// Sàng tuyến tính (Linear Sieve)
+vector<int> linear_sieve(int n) {
+    vector<int> lp(n + 1, 0);
+    vector<int> primes;
+    for (int i = 2; i <= n; ++i) {
+        if (lp[i] == 0) {
+            lp[i] = i;
+            primes.push_back(i);
+        }
+        for (int p : primes) {
+            if (p > lp[i] || i * p > n) {
+                break;
+            }
+            lp[i * p] = p;
+        }
+    }
+    return primes;
+}
+
 /*cac ham tim kiem nhi phan*/
 int binsearchBILarger(vector<int>& a, int x) {
     int k = lower_bound(a.begin(), a.end(), x) - a.begin();
