@@ -6,3 +6,4 @@
 tempCodeRunnerFile.cpp
 *.py
 .idx/dev.nix
+*.cph*
