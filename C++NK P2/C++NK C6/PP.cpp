@@ -1,37 +1,26 @@
-#include <iostream>
-#include <array>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 const int MAX = 1000001;
-struct PreCom {
-    int sumDiv[MAX]{0};
-
-    constexpr PreCom() {
-        for (int i = 1; i < MAX; ++i) {
-            for (int j = 2 * i; j < MAX; j += i) {
-                sumDiv[j] += i;
-            }
-        }
-    }
-};
-static constexpr PreCom data;
+int sD[MAX];
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("PP.inp", "r", stdin);
-	freopen("PP.out", "w", stdout);
-	int l, r;
-	cin>>l>>r;
+    freopen("PP.out", "w", stdout);
 
-	int cnt = 0;
-	for (int i = l; i <= r; ++i) {
-		if (data.sumDiv[i] > i) {
-			cnt++;
-		}
-	}
+    for (int i = 1; i < MAX; ++i)
+        for (int j = 2 * i; j < MAX; j+=i)
+            sD[j] += i;
 
-	cout<<cnt;
+    int l, r;
+    cin >> l >> r;
 
+    int c = 0;
+    for (int i = l; i <= r; ++i)
+        if (sD[i] > i)
+            c++;
+
+    cout << c << "\n";
     return 0;
 }
