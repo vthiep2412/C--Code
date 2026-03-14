@@ -4,6 +4,7 @@ using namespace std;
 struct Node {
     int l, r;
     bool operator<(const Node &other) const {
+        if (r == other.r) return l > other.l;
         return r < other.r;
     }
 };
@@ -15,8 +16,8 @@ vector<int> v;
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
 
-    freopen("REP.INP", "r", stdin);
-    freopen("REP.OUT", "w", stdout);
+    // freopen("REP.INP", "r", stdin);
+    // freopen("REP.OUT", "w", stdout);
 
     cin >> n;
     a.resize(n);
@@ -25,7 +26,7 @@ int main() {
     }
 
     sort(a.begin(), a.end());
-    for (auto &x : a) {
+    for (Node &x : a) {
         int cnt = 0;
         for (int i = v.size() - 1; i >= 0; i--) {
             if (v[i] < x.l) break;
@@ -36,7 +37,14 @@ int main() {
             v.push_back(x.r - 1);
             v.push_back(x.r);
         } else if (cnt == 1) {
-            v.push_back(x.r);
+            if (v.back() == x.r) {
+                int last = v.back();
+                v.pop_back();
+                v.push_back(x.r - 1);
+                v.push_back(last);
+            } else {
+                v.push_back(x.r);
+            }
         }
     }
 

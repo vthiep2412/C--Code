@@ -11,7 +11,6 @@ void changeDir(ll x, ll y, ll x1, ll y1){
 	else if(y1<y) dir = 2;
 	else dir = 3;
 }
-
 pair<ll,ll> nextRight(ll x, ll y){
 	switch(dir){
 		case 0: return {x+1,y};
@@ -21,7 +20,6 @@ pair<ll,ll> nextRight(ll x, ll y){
 	}
 	return{};
 }
-
 int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);
@@ -44,10 +42,8 @@ int main(){
 			continue;
 		}
 		
-		changeDir(cur.first,cur.second,val1,val2);
-		
+		changeDir(cur.first,cur.second,val1,val2);		
 		if(val1 == next2.first and val2 == next2.second) cnt++;
-		
 		next2 = nextRight(val1,val2);
 		cur = {val1,val2};
 	}
