@@ -4,8 +4,7 @@
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     // freopen(".inp", "r", stdin);
     // freopen(".out", "w", stdout);
     long long n;
@@ -21,8 +20,7 @@ int main() {
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     // freopen(".inp", "r", stdin);
     // freopen(".out", "w", stdout);
     int cnt=0;

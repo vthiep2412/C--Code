@@ -14,8 +14,7 @@ using namespace std;
 #define nd second
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
  freopen("DISNUM.inp", "r", stdin);
  freopen("DISNUM.out", "w", stdout);
     umap<ll,ll> map;

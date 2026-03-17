@@ -29,8 +29,7 @@ int countRightTriangles(int P) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("PYTHAGORE.INP", "r", stdin);
     freopen("PYTHAGORE.OUT", "w", stdout);
     int t, P;

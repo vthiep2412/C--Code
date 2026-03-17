@@ -7,8 +7,7 @@ struct e{
 };
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     if(fopen("WINS.INP", "r")){
         freopen("WINS.INP", "r", stdin);
         freopen("WINS.OUT", "w", stdout);

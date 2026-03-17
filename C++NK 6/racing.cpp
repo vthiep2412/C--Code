@@ -8,8 +8,7 @@ using namespace std;
 #define umap unordered_map
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("racing.inp", "r", stdin);
     freopen("racing.out", "w", stdout);
     ll t1,v1,t2,v2,x;

@@ -22,8 +22,7 @@ vector<ll> oioi(const vector<ll>& B) {
     return A;
 }
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("avgseq.inp", "r", stdin);
     freopen("avgseq.out", "w", stdout);
     ll n;

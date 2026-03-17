@@ -3,8 +3,7 @@ using namespace std;
 #pragma GCC optimize("O3")
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("AD.inp", "r", stdin);
     freopen("AD.out", "w", stdout);
     string a, b;

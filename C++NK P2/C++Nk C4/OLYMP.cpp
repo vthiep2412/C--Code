@@ -14,8 +14,7 @@ ll leftLevelUp (ll k, ll n, ll m){
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("OLYMP.inp", "r", stdin);
     freopen("OLYMP.out", "w", stdout);
     ll c,n,k;

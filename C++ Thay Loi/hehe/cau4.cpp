@@ -4,8 +4,7 @@ using ll = long long;
 const ll MOD = 1000000007;
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("CAU4.INP","r",stdin);
     freopen("CAU4.OUT","w",stdout);
 

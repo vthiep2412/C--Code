@@ -25,8 +25,7 @@ ll LastTerm(ll n){
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
  freopen("mapping.inp", "r", stdin);
  freopen("mapping.out", "w", stdout);
     ll x,y,z;

@@ -21,8 +21,7 @@ void sang()
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     // freopen("DOANNT.inp", "r", stdin);
     // freopen("DOANNT.out", "w", stdout);
     sang();

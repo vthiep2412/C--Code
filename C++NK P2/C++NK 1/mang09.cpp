@@ -14,8 +14,7 @@ bool check(int n){
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("mang09.inp", "r", stdin);
     freopen("mang09.out", "w", stdout);
     int n;

@@ -15,8 +15,7 @@ bool check(ll n) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("bnums.inp", "r", stdin);
     freopen("bnums.out", "w", stdout);
     vector<ll> sieveofnothing;

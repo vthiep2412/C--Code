@@ -23,8 +23,7 @@ long long max_wire_length(const vector<long long>& a, long long m) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("wires.inp", "r", stdin);
     freopen("wires.out", "w", stdout);
     long long n, m;

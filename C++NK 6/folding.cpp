@@ -21,8 +21,7 @@ ll slg(ll a, ll b) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("folding.inp", "r", stdin);
     freopen("folding.out", "w", stdout);
     ll a, b, a1, b1;

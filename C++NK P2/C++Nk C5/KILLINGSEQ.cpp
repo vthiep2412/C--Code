@@ -8,8 +8,7 @@ void hehe(bool &x){
 }
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("KILLINGSEQ.inp","r",stdin);
     freopen("KILLINGSEQ.out","w",stdout);
     ll n;

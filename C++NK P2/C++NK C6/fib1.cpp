@@ -25,8 +25,7 @@ char getchar(ll n, ll k){
 }
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     if(fopen("FIB1.INP", "r")){
         freopen("FIB1.INP", "r", stdin);
         freopen("FIB1.OUT", "w", stdout);

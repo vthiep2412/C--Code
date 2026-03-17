@@ -26,8 +26,7 @@ string superMod(string s, ll k) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
  freopen("MODULO.inp", "r", stdin);
  freopen("MODULO.out", "w", stdout);
     ll n,k;

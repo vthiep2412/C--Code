@@ -20,8 +20,7 @@ int Greedy(int n) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("packages.inp", "r", stdin);
     freopen("packages.out", "w", stdout);
     vector<int> coins = {3, 5};

@@ -66,8 +66,7 @@ ll DijkstraFind(ll s, ll e, auto adj, uset<ll>& vis, ll Msum, ll MINI){
     return MINI;
 } */
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
 
     uset<ll> vis;
     ll Msum = 0;

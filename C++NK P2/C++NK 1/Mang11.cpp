@@ -20,8 +20,7 @@ ll kt(const vector<ll>& v) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("mang11.inp", "r", stdin);
     freopen("mang11.out", "w", stdout);
     ll n;

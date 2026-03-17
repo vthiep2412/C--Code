@@ -26,8 +26,7 @@ int UCLNmoi(long a,long b){
 }
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("ucln.inp","r",stdin);
     freopen("ucln.out","w",stdout);
     long long a,b;

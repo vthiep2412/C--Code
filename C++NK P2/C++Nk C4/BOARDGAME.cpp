@@ -40,8 +40,7 @@ pair<ll, ll> findCoordinate(ll z) {
 
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
  freopen("BOARDGAME.inp", "r", stdin);
  freopen("BOARDGAME.out", "w", stdout);
     ll n,sum=0;

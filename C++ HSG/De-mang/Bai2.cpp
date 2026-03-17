@@ -30,8 +30,7 @@ using namespace std;
 
 // cách 2 có khả năng nhanh hơn nhưng space complexity o(1)
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     int n,cnt=1,min=INT_MAX;
     cin >> n;
     for(int i = 0; i < n; i++){

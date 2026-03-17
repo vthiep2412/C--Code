@@ -2,8 +2,7 @@
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("trip.inp", "r", stdin);
     freopen("trip.out", "w", stdout);
     long long n, d,cnt=0;

@@ -23,8 +23,7 @@ ll numReverse(ll n) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("NUMFRE.inp", "r", stdin);
     freopen("NUMFRE.out", "w", stdout);
     ll a,b,cnt=0;

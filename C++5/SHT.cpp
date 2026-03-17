@@ -22,8 +22,7 @@ bool kt(int n) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("SHT.inp", "r", stdin);
     freopen("SHT.out", "w", stdout);
     int n,sum=0;

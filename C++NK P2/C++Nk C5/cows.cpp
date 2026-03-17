@@ -7,8 +7,7 @@ bool better(const pair<ll,ll> &a, const pair<ll,ll> &b) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("COWS.INP", "r", stdin);
     freopen("COWS.OUT", "w", stdout);
 

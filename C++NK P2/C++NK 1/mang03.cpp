@@ -13,8 +13,7 @@ bool kt(long long n){
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("mang03.inp", "r", stdin);
     freopen("mang03.out", "w", stdout);
     int n,cnt=0;

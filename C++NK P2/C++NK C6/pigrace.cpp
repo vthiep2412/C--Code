@@ -16,8 +16,7 @@ ll binLE(const vector<ll> &a, ll x){
 }
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     if(fopen("pigrace.INP", "r")){
         freopen("pigrace.INP", "r", stdin);
         freopen("pigrace.OUT", "w", stdout);

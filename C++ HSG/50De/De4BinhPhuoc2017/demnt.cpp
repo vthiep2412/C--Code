@@ -20,8 +20,8 @@ void sieve(int n) {
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    //freopen(".inp", "r", stdin);
-    //freopen(".out", "w", stdout);
+    //freopen("demnt.inp", "r", stdin);
+    //freopen("demnt.out", "w", stdout);
     ll n = 1e6;
     sieve(n);
     vector<int> prefix;

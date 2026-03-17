@@ -31,8 +31,7 @@ bool isprime(ll n){
 }
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     if(fopen("NGUYENTO.INP", "r")){
         freopen("NGUYENTO.INP", "r", stdin);
         freopen("NGUYENTO.OUT", "w", stdout);

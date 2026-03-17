@@ -20,8 +20,7 @@ int AtmDem(int a, int b, int c, int n) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("atm.INP", "r", stdin);
     freopen("atm.OUT", "w", stdout);
     int a, b, c, n;

@@ -11,8 +11,7 @@ long long solve(long long w, long long d, long long m) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("CALENDAR.INP", "r", stdin);
     freopen("CALENDAR.OUT", "w", stdout);
     long long w,d,m;
