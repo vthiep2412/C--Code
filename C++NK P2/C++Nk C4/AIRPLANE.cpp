@@ -6,8 +6,7 @@ using namespace std;
 #define vc vector
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("AIRPLANE.inp", "r", stdin);
     freopen("AIRPLANE.out", "w", stdout);
     ld m,n,a;

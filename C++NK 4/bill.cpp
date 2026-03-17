@@ -4,8 +4,7 @@ using namespace std;
 #define elif else if
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     // freopen("bill.inp","r",stdin);
     // freopen("bill.out","w",stdout);
     long long n,sum=0;

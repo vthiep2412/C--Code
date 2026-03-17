@@ -7,8 +7,7 @@ using namespace std;
 #define uset unordered_set
 #define umap unordered_map
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("numquiz.inp", "r", stdin);
     freopen("numquiz.out", "w", stdout);
     ll n;

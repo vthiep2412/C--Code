@@ -2,8 +2,7 @@
 using namespace std;
 // cau 4
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("mang04.inp", "r", stdin);
     freopen("mang04.out", "w", stdout);
     int n,min1=INT_MAX,min2=INT_MAX;

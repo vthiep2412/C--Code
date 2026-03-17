@@ -25,8 +25,7 @@ void solve(ll nn){
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("CANARIUM.inp", "r", stdin);
     freopen("CANARIUM.out", "w", stdout);
     ll nn;

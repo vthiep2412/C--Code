@@ -18,8 +18,7 @@ pair<int, int> greedy(int n, int a, int b) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("TRANS.INP", "r", stdin);
     freopen("TRANS.OUT", "w", stdout);
     int n, a, b;

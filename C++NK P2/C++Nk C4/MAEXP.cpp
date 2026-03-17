@@ -4,8 +4,7 @@ using namespace std;
 #define vc vector
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("MAEXP.inp", "r", stdin);
     freopen("MAEXP.out", "w", stdout);
     ll n;

@@ -19,8 +19,7 @@ bool chinhphuong(ll n){
 }
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
 	freopen("SODB.INP", "r", stdin);
 	freopen("SODB.OUT", "w", stdout);
     ll n,x,cnt=0;

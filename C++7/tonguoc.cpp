@@ -16,8 +16,7 @@ vector<int> timUoc(int n) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("tonguoc.inp", "r", stdin);
     freopen("tonguoc.out", "w", stdout);
     int n,k,sum=0,cnt=0;

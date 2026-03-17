@@ -5,8 +5,7 @@ typedef long long ll;
 set<char> se;
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("MATKHAU.INP", "r", stdin);
     freopen("MATKHAU.OUT", "w", stdout);
     string s, res;

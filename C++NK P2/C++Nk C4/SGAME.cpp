@@ -14,8 +14,7 @@ using namespace std;
 #define nd second
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("SGAME.inp", "r", stdin);
     freopen("SGAME.out", "w", stdout);
     int n;

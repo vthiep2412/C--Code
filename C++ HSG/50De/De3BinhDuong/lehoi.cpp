@@ -7,8 +7,7 @@ struct e {
 };
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     // freopen("lehoi.inp","r",stdin);
     // freopen("lehoi.out","w",stdout);
     ll n, cnt=1;

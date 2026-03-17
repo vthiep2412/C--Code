@@ -4,8 +4,7 @@ using namespace std;
 int main() {
     freopen("CHECKPAL.INP", "r", stdin);
     freopen("CHECKPAL.OUT", "w", stdout);
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     string s;
     cin >> s;
 

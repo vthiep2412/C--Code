@@ -2,8 +2,7 @@
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("flowers.inp", "r", stdin);
     freopen("flowers.out", "w", stdout);
     int a,b,c,maxi=0;

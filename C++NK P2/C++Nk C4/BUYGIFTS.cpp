@@ -15,8 +15,7 @@ using namespace std;
 #define str string
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
  freopen("BUYGIFTS.inp", "r", stdin);
  freopen("BUYGIFTS.out", "w", stdout);
     ll n,m,mini=INT_MAX;

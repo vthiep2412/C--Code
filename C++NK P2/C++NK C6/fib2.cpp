@@ -24,8 +24,7 @@ ll getnum(ll n, ll k){
 }
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     if(fopen("FIB2.INP", "r")){
         freopen("FIB2.INP", "r", stdin);
         freopen("FIB2.OUT", "w", stdout);

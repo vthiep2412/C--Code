@@ -2,8 +2,7 @@
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("BAI4.inp", "r", stdin);
     freopen("BAI4.out", "w", stdout);
     int n,mini=INT_MAX;

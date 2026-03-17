@@ -15,8 +15,7 @@ bool cmp(const S& x, const S& y) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     
     freopen("NHAC.INP", "r", stdin))
     freopen("NHAC.OUT", "w", stdout)

@@ -16,8 +16,7 @@ string DtoT(int totalSec) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("BASKET.INP", "r", stdin);
     freopen("BASKET.OUT", "w", stdout);
     int n;

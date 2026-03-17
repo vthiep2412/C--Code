@@ -11,8 +11,7 @@ ll lcmll(ll a, ll b) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("find.inp", "r", stdin);
     freopen("find.out", "w", stdout);
 

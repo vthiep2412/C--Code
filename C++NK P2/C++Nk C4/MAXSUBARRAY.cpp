@@ -16,8 +16,7 @@ long long maxSubarraySum(const vector<long long>& a) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     // freopen("MAXSUBARRAY.INP", "r", stdin);
     // freopen("MAXSUBARRAY.OUT", "w", stdout);
     int n;

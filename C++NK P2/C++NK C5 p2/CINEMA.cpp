@@ -7,8 +7,7 @@ typedef long long ll;
 pair<ll,int> maxb, secondb, maxc, secondc;
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
 
     freopen("CINEMA.inp", "r", stdin);
     freopen("CINEMA.out", "w", stdout);

@@ -15,8 +15,7 @@ using namespace std;
 #define str string
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
  freopen("BOOK.inp", "r", stdin);
  freopen("BOOK.out", "w", stdout);
     ll n;

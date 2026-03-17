@@ -2,8 +2,7 @@
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("uocle.inp","r",stdin);
     freopen("uocle.out","w",stdout);
     int n,sum=0,cnt=0;

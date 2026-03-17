@@ -36,8 +36,7 @@ vector<long long> solve(long long n) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("PRIMEDIV.inp", "r", stdin);
     freopen("PRIMEDIV.out", "w", stdout);
     long long n;

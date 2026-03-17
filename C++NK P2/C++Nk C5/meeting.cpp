@@ -6,8 +6,7 @@ struct Meeting {
 };
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("MEETING.INP", "r", stdin);
     freopen("MEETING.OUT", "w", stdout);
 

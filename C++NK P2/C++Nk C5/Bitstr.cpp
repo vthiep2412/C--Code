@@ -16,8 +16,7 @@ int solve(string s, char target) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("BITSTR.INP", "r", stdin);
     freopen("BITSTR.OUT", "w", stdout);
 

@@ -21,8 +21,7 @@ pair<ll,ll> nextRight(ll x, ll y){
 	return{};
 }
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("ROBOT.INP","r",stdin);
 	freopen("ROBOT.OUT","w",stdout);
     ll n,val1,val2,cnt=0;

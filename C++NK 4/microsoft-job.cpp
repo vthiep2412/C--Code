@@ -3,8 +3,7 @@ using namespace std;
 
 int main() {
     auto start = chrono::high_resolution_clock::now();
-    ios_base::sync_with_stdio(0);
-    cin.tie(0); 
+    ios_base::sync_with_stdio(0); cin.tie(0); 
     const int c = 14;
     int cnt = 0;
     vector<int> a = {9,8,8,4,6};

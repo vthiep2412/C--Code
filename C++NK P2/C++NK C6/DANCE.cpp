@@ -31,8 +31,7 @@ int findFirstGt(const vector<ll>& a, int n, ll x) {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("DANCE.INP", "r", stdin);
     freopen("DANCE.OUT", "w", stdout);
 

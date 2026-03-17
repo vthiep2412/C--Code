@@ -2,8 +2,7 @@
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     // freopen("TNV3.inp", "r", stdin);
     // freopen("TNV3.out", "w", stdout);
     int n;

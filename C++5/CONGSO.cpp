@@ -11,8 +11,7 @@ long long PT1(vector<long long> a, vector<long long> b) {
     return a[a.size() - 1] + b[0]; 
 }
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("CONGSO.inp", "r", stdin);
     freopen("CONGSO.out", "w", stdout);
     long long n, m;

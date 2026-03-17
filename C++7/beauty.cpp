@@ -30,8 +30,7 @@ void sangsodep() {
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("beauty.inp", "r", stdin);
     freopen("beauty.out", "w", stdout);
     sangsodep();

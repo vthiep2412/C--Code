@@ -9,8 +9,7 @@ bool cmp(const pair<long long,long long>& a, const pair<long long,long long>& b)
 }
 
 int main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     freopen("PIZZA.INP", "r", stdin);
     freopen("PIZZA.OUT", "w", stdout);
 

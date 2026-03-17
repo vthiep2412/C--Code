@@ -7,3 +7,8 @@ tempCodeRunnerFile.cpp
 *.py
 .idx/dev.nix
 *.cph*
+C++NK P2/C++NK C7/area
+
+*
+!*/
+!*.cpp

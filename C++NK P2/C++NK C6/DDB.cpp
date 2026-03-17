@@ -18,8 +18,7 @@ vector<int> etha(ll maxn){
 }
 
 int main(){
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
     if(fopen("DDB.INP", "r")){
         freopen("DDB.INP", "r", stdin);
         freopen("DDB.OUT", "w", stdout);
