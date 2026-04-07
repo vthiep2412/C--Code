@@ -31,8 +31,8 @@ void solve(){
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    //freopen("NUM86.inp", "r", stdin);
-    //freopen("NUM86.out", "w", stdout);
+    freopen("NUM86.inp", "r", stdin);
+    freopen("NUM86.out", "w", stdout);
     int t;
     cin>>t;
     while(t--){

@@ -1,8 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
+#include <bits/stdc++.h>
 using namespace std;
+
 int cntline(const vector<int>& words, int w) {
     int lines = 1;
     int currW = 0;
@@ -42,7 +40,7 @@ int main() {
 
     while(l <= r){
         int mid = l + (r-l)/2;
-        int n = cntline(a, mid), m = cntline(b, w-mid);
+        int n = cntline(a, mid), m = cntline(b, W-mid);
         bestAns = min(bestAns, max(n,m));
 
         if(n < m)

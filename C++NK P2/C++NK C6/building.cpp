@@ -1,12 +1,13 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
+    ios_base::sync_with_stdio(0); cin.tie(0);
+    freopen("building.inp", "r", stdin);
+    freopen("building.out", "w", stdout);
+    
     int m, n, cnt = 0;;
-    if (!(cin >> m >> n)) return 0;
+    cin >> m >> n;
 
     vector<vector<int>> h(m, vector<int>(n));
     for (int i = 0; i < m; i++) {

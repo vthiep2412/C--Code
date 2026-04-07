@@ -11,8 +11,8 @@ struct e {
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    //freopen("dinosaur.inp", "r", stdin);
-    //freopen("dinosaur.out", "w", stdout);
+    freopen("dinosaur.inp", "r", stdin);
+    freopen("dinosaur.out", "w", stdout);
 
     int n;
     cin>>n;

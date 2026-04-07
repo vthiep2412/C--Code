@@ -11,9 +11,6 @@ int m, n;
 
 int dx[]={-1,1,0,0}, dy[]={0,0,-1,1};
 
-#include <stack>
-#include <vector>
-
 void dfs(int r, int c) {
     stack<pair<int, int>> st;
     
@@ -42,8 +39,8 @@ void dfs(int r, int c) {
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    //freopen("area.inp", "r", stdin);
-    //freopen("area.out", "w", stdout);
+    freopen("area.inp", "r", stdin);
+    freopen("area.out", "w", stdout);
     cin>>m>>n;
     for (int i=0; i<m; i++)
         for (int j=0; j<n; j++)

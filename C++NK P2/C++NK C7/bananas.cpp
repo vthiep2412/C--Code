@@ -9,8 +9,8 @@ ll a[205][105], dp[205][105];
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    //freopen("bananas.inp", "r", stdin);
-    //freopen("bananas.out", "w", stdout);
+    freopen("bananas.inp", "r", stdin);
+    freopen("bananas.out", "w", stdout);
     int t;
     cin>>t;
     while(t--){

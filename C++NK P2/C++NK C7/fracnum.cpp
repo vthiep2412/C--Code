@@ -16,11 +16,11 @@ int main() {
     ll p = n - b;
     ll p1, p2;
     if (a % 2 == 0) {
-        p1 = p;
-        p2 = a - p + 1;
-    } else {
         p1 = a - p + 1;
         p2 = p;
+    } else {
+        p1 = p;
+        p2 = a - p + 1;
     }
     cout << p1 <<"/"<< p2;
 }

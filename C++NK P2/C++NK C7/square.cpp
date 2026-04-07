@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    // freopen("SQUARE.inp", "r", stdin);
-    // freopen("SQUARE.out", "w", stdout);
+    freopen("SQUARE.inp", "r", stdin);
+    freopen("SQUARE.out", "w", stdout);
     int n,m,maxi=0;
     cin >> n>>m;
     vector<vector<char>> a(n,vector<char>(m));
