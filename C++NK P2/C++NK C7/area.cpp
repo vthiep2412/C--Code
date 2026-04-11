@@ -12,6 +12,7 @@ int m, n;
 int dx[]={-1,1,0,0}, dy[]={0,0,-1,1};
 
 void dfs(int r, int c) {
+    ios_base::sync_with_stdio(0); cin.tie(0);
     stack<pair<int, int>> st;
     
     st.push({r, c});
