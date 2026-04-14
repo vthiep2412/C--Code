@@ -11,8 +11,8 @@ int dy[4] = {0, 1, 0, -1};
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    freopen("crobot.inp", "r", stdin);
-    freopen("crobot.out", "w", stdout);
+    freopen("CROBOT.inp", "r", stdin);
+    freopen("CROBOT.out", "w", stdout);
     int n, t = 1,x=0,y=0;
     string s;
     cin>>n>>s;

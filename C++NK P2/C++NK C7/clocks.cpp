@@ -10,7 +10,7 @@ int main() {
   for (int i = 0; i < 9; ++i) cin >> s[i];
 
   int minSteps = 40;
-  int bestX[10];
+  int res[10];
   bool found = false;
 
   for (int x1 = 0; x1 < 4; ++x1) {
@@ -53,6 +53,6 @@ int main() {
   }
   cout << minSteps << "\n";
   for (int i = 1; i <= 9; ++i)
-    while (bestX[i]--) cout << i << "\n";
+    while (res[i]--) cout << i << "\n";
   return 0;
 }

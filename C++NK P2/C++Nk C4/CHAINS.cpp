@@ -23,7 +23,8 @@ int main(){
         long long S = pref[s];
         long long need = (long long)n - s - 1;  
         if (S >= need) {
-            ans = S;
+            if (S == need) ans = S;
+            else ans = n - s;
             break;
         }
     }

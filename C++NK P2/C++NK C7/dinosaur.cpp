@@ -16,7 +16,8 @@ int main() {
 
     int n;
     cin>>n;
-    vector<e> a(n), dp(n,1), pr(n,-1);
+    vector<e> a(n);
+    vector<int> dp(n, 1), pr(n, -1);
     for(int i=0;i<n;i++){
         cin>>a[i].w>>a[i].iq;
         a[i].idx = i+1;

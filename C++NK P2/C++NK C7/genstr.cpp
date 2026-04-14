@@ -17,16 +17,18 @@ int main() {
         freopen("genstr.INP", "r", stdin);
         freopen("genstr.OUT", "w", stdout);
     }
-    string s;
+    string s,org;
     cin>>s;
     sort(s.begin(),s.end());
-    int cnt;
+    org = s;
+    int cnt = 1;
     vector<string> ans;
     while(nextPermutation(s)){
         ans.push_back(s);
         cnt++;
     }
     cout<<cnt<<"\n";
-    for(string &c:a) cout<<c<<"\n";
+    cout<<org<<"\n";
+    for(string &c:ans) cout<<c<<"\n";
     return 0;
 }

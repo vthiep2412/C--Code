@@ -1,25 +1,34 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll long long
-#define ld long double
-#define vc vector
-#define uset unordered_set
-#define umap unordered_map
+long long getNum(long long x, long long t, long long v) {
+    long long d = v * t;
+    long long c = x / d;
+    long long r = x % d;
+    if (r == 0) return (c * 2 * t - t) * v;
+    return (c * 2 * t) * v + r;
+}
 
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
-    freopen("racing.inp", "r", stdin);
-    freopen("racing.out", "w", stdout);
-    ll t1,v1,t2,v2,x;
-    cin>>t1>>v1>>t2>>v2;
-    cin>>x;
-    ll res1, res2;
-    res1 = ((x/(v1*t1))*(t1*2))-t1;
-    res2 = ((x/(v2*t2))*(t2*2))-t2;
-    cout << res1 << " " << res2 << endl;
-    if(res1<res2) cout << "First";
-    else if(res1>res2) cout << "Second";
+    if(fopen("RACING.INP", "r")){
+        freopen("RACING.INP", "r", stdin);
+        freopen("RACING.OUT", "w", stdout);
+    }
+
+    long long t1, v1, t2, v2, x;
+    cin >> t1 >> v1 >> t2 >> v2;
+    cin >> x;
+
+    long long n1 = getNum(x, t1, v1);
+    long long n2 = getNum(x, t2, v2);
+
+    long long lhs = n1 * v2;
+    long long rhs = n2 * v1;
+
+    if (lhs < rhs) cout << "First";
+    else if (lhs > rhs) cout << "Second";
     else cout << "Draw";
+
     return 0;
 }

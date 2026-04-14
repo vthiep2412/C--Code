@@ -16,8 +16,8 @@ vector<int> v;
 int main() {
     ios_base::sync_with_stdio(0); cin.tie(0);
 
-    // freopen("REP.INP", "r", stdin);
-    // freopen("REP.OUT", "w", stdout);
+    freopen("REP.INP", "r", stdin);
+    freopen("REP.OUT", "w", stdout);
 
     cin >> n;
     a.resize(n);
@@ -50,6 +50,6 @@ int main() {
 
     cout << v.size() << "\n";
     for (int i = 0; i < v.size(); i++) {
-        cout << v[i] << (i == v.size() - 1 ? "" : " ");
+        cout << v[i] << " ";
     }
 }
