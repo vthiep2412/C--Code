@@ -10,7 +10,7 @@ int main(){
     }
     
     int n;
-    cin >> n
+    cin >> n;
     vector<int> a(n);
     ll total = 0;
     for(int i = 0; i < n; i++){ 
@@ -18,7 +18,7 @@ int main(){
         total += a[i];
     }
     if(total % 3 != 0){
-        cout << -1 << "\n";
+        cout << -1;
         return 0;
     }
     ll target = total / 3;
